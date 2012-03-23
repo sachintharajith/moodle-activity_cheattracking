@@ -33,15 +33,15 @@ Features:
 	
 Installation procedure:
 
-1. Copy directory cheattracking/ to moodle/mod/quiz/report/
+1. Copy the files into the moodle/mod/quiz/report folder so that you have moodle/mod/quiz/report/cheattracking folder . 
 2. Go to site administration--->notifications and upgrade the 
-	Installation of the plugging.
+   Installation of the plugging.
 
 Using:
 
-In navigation tree click on the appropriate quiz and results link.
-Cheat tracker plugging is visible if you are succeeded in installation.
-Click on it and configure with your preferences and click on 'Show Report'
+1.In navigation tree click on the appropriate quiz and results link.
+2.Cheat tracker plugging is visible if you are succeeded in installation.
+3.Click on it and configure with your preferences and click on 'Show Report'
 Button. Here you go! A list of quiz cheaters will be displayed and take the 
 appropriate decision.
 
