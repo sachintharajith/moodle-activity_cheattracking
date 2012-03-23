@@ -1,0 +1,60 @@
+==================================================================
+Cheat Tracking (implemented for Moodle 2, tested with moodle 2.2)
+==================================================================
+
+Cheat tracking is a plugging for moodle activity module which can track 
+cheatings done by the students during online quizzes. It will generate 
+a report based on a cheat tracking criteria which can be configured 
+by the teacher.
+
+Cheat tracking is a plugin for assignments with following
+Features:
+
+	- Teacher can specify a time threshold and the attempts completed 
+	below this will be considered as a cheating
+	A list of students who show such a behavior will be generated and displayed in a table 
+	- IP based cheat tracking
+			- Two or more students are logged from the same machine during the 
+			Quiz (using two different web browsers or incognito window of chrome)
+			By doing this a student can do the quiz for others
+			-Same user is logged from two different machines during the quiz time 
+			This allows that user to see others answers
+			
+		Those are considered as IP violations and a list of students who show such a 
+		behavior will be generated and displayed in a seperate table
+	- Delete quiz attempt
+	- Automatic message will be sent to relevant student informing the attempt 
+	  has been deleted
+	- Table data can be downloaded in txt, ODS or XHTML format
+	- Teacher can enable, disable tracking mechanisms
+	- Single click cheat tracking (Ease of use)
+	- Faster generation of reports
+
+	
+Installation procedure:
+
+1. Copy directory cheattracking/ to moodle/mod/quiz/report/
+2. Go to site administration--->notifications and upgrade the 
+	Installation of the plugging.
+
+Using:
+
+In navigation tree click on the appropriate quiz and results link.
+Cheat tracker plugging is visible if you are succeeded in installation.
+Click on it and configure with your preferences and click on 'Show Report'
+Button. Here you go! A list of quiz cheaters will be displayed and take the 
+appropriate decision.
+
+Test for Moodle 2.2
+platforms : Windows, Linux
+
+Development:
+Sachintha Rajith
+Department of Computer Science and Engineering
+University of Moratuwa
+Sri Lanka
+
+
+
+
+
